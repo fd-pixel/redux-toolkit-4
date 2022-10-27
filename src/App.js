@@ -1,7 +1,16 @@
-import "./App.css";
+import React from "react";
+import Login from "./components/Login";
+import Profile from "./components/Profile";
+import Theme from "./components/Theme";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Login />
+      <Profile />
+      <Theme />
+    </div>
+  );
 }
 
 export default App;
